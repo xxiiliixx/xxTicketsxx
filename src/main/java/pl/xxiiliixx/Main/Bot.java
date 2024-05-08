@@ -19,7 +19,7 @@ public class Bot {
     public static void main(String[] args) throws LoginException {
         System.out.println("[xxTicketsxx] Building...");
 
-        JDABuilder builder = JDABuilder.createDefault("MTIzMjM1NjU3NTk1MjUwMjc5NQ.GN00lq.3MOSe34B1Pw--Z125YFk33PwcMtN7vsMwFTAo4");
+        JDABuilder builder = JDABuilder.createDefault(":)");
         builder.setStatus(OnlineStatus.ONLINE);
 
         builder.enableIntents(GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.MESSAGE_CONTENT);
